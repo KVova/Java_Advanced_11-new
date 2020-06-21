@@ -19,9 +19,8 @@
 	crossorigin="anonymous">
 </head>
 <body>
-
+	<h1>Welcome to the cabinet ${userEmail}</h1>
 	<jsp:include page="header.jsp"></jsp:include>
-
 
 	<div class="container-fluid">
 		<div class="row">

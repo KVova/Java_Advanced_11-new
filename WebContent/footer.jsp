@@ -75,7 +75,7 @@
 <li><a href="http://kalarikendramdelhi.com">Contact</a></li>
 </ul>
 <!--foote_bottom_ul_amrc ends here-->
-<p class="text-center">Copyright @2020 | Designed With by <a href="#">Your Company Name</a></p>
+<p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
 
 <ul class="social_footer_ul">
 <li><a href="http://kalarikendramdelhi.com"><i class="fab fa-facebook-f"></i></a></li>

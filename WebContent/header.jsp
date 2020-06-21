@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="css/header.css">
 
-  <div id="wrapper" class="animate header" >
+
+
+  <div id="wrapper" class="animate">
     <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-dark">
       <span class="navbar-toggler-icon leftmenutrigger"></span>
       <a class="navbar-brand" href="#">DailyShop</a>
@@ -15,16 +17,16 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item create-product-option">
             <a class="nav-link" href="${pageContext.request.contextPath}/createProduct.jsp">add Periodical</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item user-bucket-option">
             <a class="nav-link" href="${pageContext.request.contextPath}/bucket.jsp">Bucket</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-md-auto d-md-flex">
           <li class="nav-item">
-            <button class="nav-link product-logout">LogOut</button>
+            <button class="nav-link product-logout" style="background-color: green">LogOut</button>
           </li>
         </ul>
       </div>

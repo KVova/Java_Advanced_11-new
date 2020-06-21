@@ -11,6 +11,7 @@ import volodymyr.domain.Product;
 import volodymyr.service.ProductService;
 import volodymyr.service.impl.ProductServiceImpl;
 
+@SuppressWarnings("serial")
 @WebServlet("/product")
 public class ProductController extends HttpServlet {
 

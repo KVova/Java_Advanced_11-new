@@ -20,9 +20,6 @@ public class BucketController extends HttpServlet {
  
 private	BucketService bucketService = BucketServiceImpl.getBucketService();
 
-
-
-	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String productId = request.getParameter("productId");
 	
@@ -32,6 +29,16 @@ private	BucketService bucketService = BucketServiceImpl.getBucketService();
 		Bucket bucket = new Bucket(userId, Integer.parseInt(productId), new Date());
 		bucketService.create(bucket);
 		
+		
+		response.setContentType("text");
+		response.setCharacterEncoding("UTF-8");
+		response.getWriter().write("Success");
+	}
+	
+	
+	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String bucketId = request.getParameter("bucketId");
+		bucketService.delete(Integer.parseInt(bucketId));
 		
 		response.setContentType("text");
 		response.setCharacterEncoding("UTF-8");

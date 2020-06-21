@@ -15,18 +15,18 @@ import volodymyr.domain.Product;
 import volodymyr.service.ProductService;
 import volodymyr.service.impl.ProductServiceImpl;
 
+@SuppressWarnings("serial")
 @WebServlet("/products")
-public class Products extends HttpServlet {
+public class ProductsController extends HttpServlet {
 	private ProductService productService = ProductServiceImpl.getProductService();
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		List<Product> products = productService.readAll();
 		String json = new Gson().toJson(products);
 		response.setContentType("application/json");
 		response.setCharacterEncoding("UTF-8");
 		response.getWriter().write(json);
 	}
-
-	
 
 }
