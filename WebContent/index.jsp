@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,6 +73,8 @@
 	<script src="js/login.js"></script>
 
 =======
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -102,6 +105,9 @@
     </form>
     <p>Not registered yet? <a href="registration.jsp">Register.</a></p>
 	<jsp:include page="footer.jsp"></jsp:include>
+<<<<<<< HEAD
 >>>>>>> branch 'project-1-jsp-servlets-jdbc' of https://github.com/KVova/Java_Advanced_11-new.git
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8
 </body>
 </html>

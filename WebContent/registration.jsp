@@ -4,6 +4,7 @@
 <html>
 <head>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -76,6 +77,8 @@
 </body>
 </html>
 =======
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8
 <meta charset="ISO-8859-1">
 <title>Registration</title>
 <style>
@@ -106,5 +109,9 @@
     
     <jsp:include page="footer.jsp"></jsp:include>
     </body>
+<<<<<<< HEAD
     </html>
 >>>>>>> branch 'project-1-jsp-servlets-jdbc' of https://github.com/KVova/Java_Advanced_11-new.git
+=======
+    </html>
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8

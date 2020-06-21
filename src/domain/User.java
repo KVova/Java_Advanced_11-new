@@ -2,6 +2,7 @@ package domain;
 
 public class User {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	private Integer id;
 	private String email;
 	private String firstName;
@@ -138,6 +139,8 @@ public class User {
 
 }
 =======
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8
 	private int id;
 	private String firstName;
 	private String lastName;
@@ -211,4 +214,7 @@ public class User {
 	}
 
 }
+<<<<<<< HEAD
 >>>>>>> branch 'project-1-jsp-servlets-jdbc' of https://github.com/KVova/Java_Advanced_11-new.git
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8

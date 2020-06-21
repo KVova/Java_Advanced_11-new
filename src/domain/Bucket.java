@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Bucket {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	private Integer id;
 	private Integer userId;
 	private Integer productId;
@@ -105,6 +106,8 @@ public class Bucket {
 	}
 
 =======
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8
 	
 	private int id;
 	private int userId;
@@ -152,5 +155,8 @@ public class Bucket {
 	
 	
 	
+<<<<<<< HEAD
 >>>>>>> branch 'project-1-jsp-servlets-jdbc' of https://github.com/KVova/Java_Advanced_11-new.git
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8
 }

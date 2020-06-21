@@ -2,6 +2,7 @@ package servlet;
 
 import java.io.IOException;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -38,6 +39,8 @@ public class LoginServlet extends HttpServlet {
 			response.setCharacterEncoding("UTF-8");
 			response.getWriter().write("You are logged in!");
 =======
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -64,7 +67,10 @@ public class LoginServlet extends HttpServlet {
 			request.setAttribute("firstName", user.getFirstName());
 			request.setAttribute("lastName", user.getLastName());
 			request.getRequestDispatcher("cabinet.jsp").forward(request, response);
+<<<<<<< HEAD
 >>>>>>> branch 'project-1-jsp-servlets-jdbc' of https://github.com/KVova/Java_Advanced_11-new.git
+=======
+>>>>>>> e708fbc78046e666d9fca27a5ab4199925875ce8
 		}
 	}
 
