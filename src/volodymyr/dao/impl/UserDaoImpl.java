@@ -14,6 +14,7 @@ import volodymyr.dao.UserDao;
 import volodymyr.domain.User;
 import volodymyr.utils.ConnectionUtils;
 
+//this is Dao  for user model
 public class UserDaoImpl implements UserDao {
 
 	private static String READ_ALL = "select * from user";

@@ -2,6 +2,7 @@ package volodymyr.domain;
 
 import java.util.Date;
 
+//this is bucket model
 public class Bucket {
 
 	private Integer id;
