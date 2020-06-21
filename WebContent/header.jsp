@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/header.css">
 
-  <div id="wrapper" class="animate">
+  <div id="wrapper" class="animate header" >
     <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-dark">
       <span class="navbar-toggler-icon leftmenutrigger"></span>
       <a class="navbar-brand" href="#">DailyShop</a>
@@ -11,7 +11,7 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav animate side-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="${pageContext.request.contextPath}/cabinet.jsp">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>

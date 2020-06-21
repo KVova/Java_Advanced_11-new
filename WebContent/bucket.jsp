@@ -25,11 +25,13 @@
 	<div class="container-fluid">
 		<div class="row">
 					
-				<h3>Bucket of Product</h3>
+				<h1>Bucket of Product</h1>
 				
 		</div>
 
 	</div>
+
+
 
 	<jsp:include page="footer.jsp"></jsp:include>
 

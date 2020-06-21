@@ -48,6 +48,8 @@
 
 	</div>
 
+
+
 	<jsp:include page="footer.jsp"></jsp:include>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -63,10 +65,7 @@
 		crossorigin="anonymous"></script>
 	<script
 		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	
 	<script src="js/header.js"></script>
-	
 	<script src="js/serverCalls.js"></script>
-	
 </body>
 </html>
