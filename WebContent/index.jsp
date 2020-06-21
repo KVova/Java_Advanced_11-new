@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<<<<<<< HEAD
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -70,5 +71,37 @@
 	<!-- JS -->
 	<script src="js/login.js"></script>
 
+=======
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<style>
+	form {
+		width: 250px;
+		margin: 10px 0 0 150px;
+	}
+	
+	label {
+		display: flex;
+		justify-content: space-between;
+	}
+</style>
+</head>
+<body>
+	<jsp:include page="header.jsp"></jsp:include>
+	
+	<h3>Log in to your personal account.</h3>
+	
+	<form action="login" method="post">
+        <label>eMail: <input type="email" name="eMail"></label><br>
+        <label>Password: <input type="password" name="password"></label><br>
+        <input type=submit value="Sign in">   
+    </form>
+    <p>Not registered yet? <a href="registration.jsp">Register.</a></p>
+	<jsp:include page="footer.jsp"></jsp:include>
+>>>>>>> branch 'project-1-jsp-servlets-jdbc' of https://github.com/KVova/Java_Advanced_11-new.git
 </body>
 </html>
